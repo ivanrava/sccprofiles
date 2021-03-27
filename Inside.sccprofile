@@ -1,0 +1,41 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "button(Keys.BTN_GAMEPAD)", 
+            "name": "Salto"
+        }, 
+        "RPAD": {
+            "action": "button(Keys.BTN_THUMBR)"
+        }, 
+        "START": {
+            "action": "button(Keys.BTN_SELECT)", 
+            "name": "Menu di pausa"
+        }, 
+        "STICKPRESS": {
+            "action": "button(Keys.BTN_THUMBL)"
+        }, 
+        "X": {
+            "action": "button(Keys.BTN_NORTH)", 
+            "name": "Afferra / usa"
+        }
+    }, 
+    "cpad": {}, 
+    "gyro": {}, 
+    "is_template": false, 
+    "menus": {}, 
+    "pad_left": {
+        "action": "mode(LPAD, None, feedback(LEFT, 2844, dpad(hatup(Axes.ABS_HAT0Y), hatdown(Axes.ABS_HAT0Y), hatleft(Axes.ABS_HAT0X), hatright(Axes.ABS_HAT0X))))"
+    }, 
+    "pad_right": {
+        "action": "smooth(8, 0.78, 2.0, feedback(RIGHT, 256, ball(mouse())))",
+	"name": "Muovi mouse"
+    }, 
+    "stick": {
+        "action": "sens(1.2, 1.2, XY(axis(Axes.ABS_X), raxis(Axes.ABS_Y)))",
+	"name": "Muovi"
+    }, 
+    "trigger_left": {}, 
+    "trigger_right": {}, 
+    "version": 1.4
+}
