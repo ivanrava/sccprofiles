@@ -2,27 +2,31 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "button(Keys.KEY_1)",
-			"name": "1 - Clear line"
+            "action": "button(Keys.KEY_1)", 
+            "name": "1 - Clear line"
         }, 
         "B": {
-            "action": "button(Keys.KEY_2)",
-			"name": "2 - Rain"
+            "action": "button(Keys.KEY_2)", 
+            "name": "2 - Rain"
+        }, 
+        "BACK": {
+            "action": "button(Keys.KEY_LEFTALT) and button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_S)", 
+            "name": "Schermo intero"
         }, 
         "C": {
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "START": {
-            "action": "button(Keys.KEY_P)",
-			"name": "Pausa"
+            "action": "button(Keys.KEY_P)", 
+            "name": "Pausa"
         }, 
         "X": {
-            "action": "button(Keys.KEY_4)",
-			"name": "4 - Eliminate"
+            "action": "button(Keys.KEY_4)", 
+            "name": "4 - Eliminate"
         }, 
         "Y": {
-            "action": "button(Keys.KEY_3)",
-			"name": "3 - Flip"
+            "action": "button(Keys.KEY_3)", 
+            "name": "3 - Flip"
         }
     }, 
     "cpad": {}, 
@@ -30,24 +34,24 @@
     "is_template": false, 
     "menus": {}, 
     "pad_left": {
-        "action": "dpad(button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT))",
-		"name": "Ruota; Abbassa; Muovi a SX; Muovi a DX"
+        "action": "dpad(button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT))", 
+        "name": "Ruota; Abbassa; Muovi a SX; Muovi a DX"
     }, 
     "pad_right": {
-        "action": "smooth(8, 0.78, 2.0, feedback(RIGHT, 256, ball(mouse())))",
-		"name": "Muovi il mouse"
+        "action": "smooth(8, 0.78, 2.0, feedback(RIGHT, 256, ball(mouse())))", 
+        "name": "Muovi il mouse"
     }, 
     "stick": {
-        "action": "dpad(button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT))",
-		"name": "Muovi (come sopra)"
+        "action": "dpad(button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT))", 
+        "name": "Muovi (come sopra)"
     }, 
     "trigger_left": {
-        "action": "trigger(50, 255, button(Keys.BTN_LEFT))",
-		"name": "Mouse SX"
+        "action": "trigger(50, 255, button(Keys.BTN_LEFT))", 
+        "name": "Mouse SX"
     }, 
     "trigger_right": {
-        "action": "trigger(50, 255, button(Keys.BTN_LEFT))",
-		"name": "Mouse DX"
+        "action": "trigger(50, 255, button(Keys.BTN_LEFT))", 
+        "name": "Mouse DX"
     }, 
     "version": 1.4
 }
